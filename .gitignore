@@ -1,0 +1,35 @@
+# 数据与实验日志（本地保留）
+data/
+log/
+
+# 权重与 checkpoint
+**/checkpoints/
+**/checkpoint/
+experiments/baseline/models/t5-large/
+experiments/baseline/checkpoints/
+experiments/thesis/checkpoints_smoke/
+third_party/LLaVA/
+
+# 论文与非代码内容（本地保留，不上传 Git）
+template-of-thesis-main/
+thesis-hust-filled/
+session_notes/
+tools/
+.cursor/
+README_全仓库实验打包说明.md
+/*.pdf
+/*.docx
+
+# 压缩包与临时文件
+*.zip
+*.rar
+imported_portable*/
+_pdf_extract/
+count_out.txt
+
+# Python / 系统
+__pycache__/
+*.pyc
+*.log
+.DS_Store
+Thumbs.db
